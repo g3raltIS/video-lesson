@@ -1,0 +1,35 @@
+body{ background-color: black;
+}
+a{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+}
+a:hover{
+    color: black;
+}
+.info__video{
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 1px;
+    width: 560px;
+    background-color: #333333;
+}
+.desc{
+    margin: 10px;
+    color: white;
+}
+h1{
+    margin: 0;
+}
+.video__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
